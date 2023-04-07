@@ -1,0 +1,138 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-file[type="file"] {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.label-file {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.button-submit[type="submit"] {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+}
+
+.button-submit {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.button-submit[type="submit"]:hover {
+  background-color: #0053a6;
+}
+
+.button-submit:hover {
+  background-color: #0053a6;
+}
+
+.button-submit[type="submit"]:disabled {
+  background-color: #0070f3;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-image: url("https://media.giphy.com/media/3oEjI6SIIHBdRxXI40/giphy.gif");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid red;
+  align-self: flex-start;
+  border-radius: 5px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  background-color: #f5f5f5;
+}
+
+/* Pagination links */
+.pagination a {
+  color: black;
+  padding: 4px 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  width: 30px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 13px;
+}
+
+/* Style the active/current link */
+.pagination a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Add a grey background color on mouse-over */
+.pagination a:hover:not(.active) {
+  background-color: #ddd;
+}
+
+.input-filter {
+  width: 40%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.select-filter {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.select-filter option {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .input-filter {
+    width: 90%;
+  }
+}
