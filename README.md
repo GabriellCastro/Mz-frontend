@@ -1,47 +1,56 @@
-# TypeScript Next.js example
+<h1 align="center">
+  Mz Group Frontend - This is a challenge by Coodesh
+</h1>
 
-This is a really simple project that shows the usage of Next.js with TypeScript.
+<p align="center">
+  <a href="https://www.linkedin.com/in/eugabrielcastro/">
+    <img alt="Made by GabriellCastro" src="https://img.shields.io/badge/made%20by-gabriellcastro-%237519C1">
+  </a>
+</p>
 
-## Deploy your own
+## :rocket: Technologies ##
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-typescript)
+The following technologies were used in the project:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-typescript&project-name=with-typescript&repository-name=with-typescript)
+- [NextJs](https://nextjs.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [Modules-Css](https://github.com/css-modules/css-modules)
+- [Date-Fns](https://date-fns.org)
 
-## How to use it?
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
+## :white_check_mark: Requirements ##
+
+- [Node](https://nodejs.org/en/)
+- [Yarn](https://yarnpkg.com/lang/en/)
+
+## :checkered_flag: Starting ##
 
 ```bash
-npx create-next-app --example with-typescript with-typescript-app
+# Run the git clone command to clone the repository
+$ git clone git@github.com:GabriellCastro/Mz-frontend.git
+
+# Enter the cloned repository folder
+$ cd mz-frontend
+
+# Run yarn to install dependencies
+$ yarn
+
+# To start the application
+$ yarn dev
+
 ```
+
+## Initialized
 
 ```bash
-yarn create next-app --example with-typescript with-typescript-app
-```
-
-```bash
-pnpm create next-app --example with-typescript with-typescript-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
-
-## Notes
-
-This example shows how to integrate the TypeScript type system into Next.js. Since TypeScript is supported out of the box with Next.js, all we have to do is to install TypeScript.
+# With the application initialized:
+$ http://localhost:3000
 
 ```
-npm install --save-dev typescript
-```
 
-To enable TypeScript's features, we install the type declarations for React and Node.
+## Autor
 
-```
-npm install --save-dev @types/react @types/react-dom @types/node
-```
+Made by Gabriel Castro 👋🏽 Get in touch!
 
-When we run `next dev` the next time, Next.js will start looking for any `.ts` or `.tsx` files in our project and builds it. It even automatically creates a `tsconfig.json` file for our project with the recommended settings.
-
-Next.js has built-in TypeScript declarations, so we'll get autocompletion for Next.js' modules straight away.
-
-A `type-check` script is also added to `package.json`, which runs TypeScript's `tsc` CLI in `noEmit` mode to run type-checking separately. You can then include this, for example, in your `test` scripts.
+[![Linkedin Badge](https://img.shields.io/badge/-Gabriel-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/eugabrielcastro/)](https://www.linkedin.com/in/eugabrielcastro/)
+[![Gmail Badge](https://img.shields.io/badge/-contatodevgabriel@gmail.com-red?style=flat-square&link=mailto:contatodevgabriel@gmail.com)](mailto:contatodevgabriel@gmail.com)
