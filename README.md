@@ -8,6 +8,12 @@
   </a>
 </p>
 
+<p align="center">
+  <a href="https://www.loom.com/share/1cd1d69701bb416a9738b327dc111bbf">
+    👉 Link Project Presentation 👈
+  </a>
+</p>
+
 ## :rocket: Technologies ##
 
 The following technologies were used in the project:
